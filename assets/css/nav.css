@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
+
 nav{
   position: fixed;
   z-index: 99;
@@ -84,7 +79,7 @@ nav .wrapper{
   opacity: 0;
   visibility: hidden;
 }
-.mega-box .content1{
+.mega-box .content{
   background: #4E0000;
   padding: 25px 20px;
   display: flex;
@@ -92,21 +87,21 @@ nav .wrapper{
   justify-content: space-between;
   box-shadow: 0 6px 10px rgba(0,0,0,0.15);
 }
-.mega-box .content1 .row{
+.mega-box .content .row{
   width: calc(25% - 30px);
   line-height: 45px;
 }
-.content1 .row img{
+.content .row img{
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.content1 .row header{
+.content .row header{
   color: #f2f2f2;
   font-size: 20px;
   font-weight: 500;
 }
-.content1 .row .mega-links{
+.content .row .mega-links{
   margin-left: -40px;
   border-left: 1px solid rgba(255,255,255,0.09);
 }
@@ -244,14 +239,14 @@ nav .wrapper{
   .mega-box .content .row:nth-child(2){
     border-top: 0px;
   }
-  .content1 .row .mega-links{
+  .content .row .mega-links{
     border-left: 0px;
     padding-left: 15px;
   }
   .row .mega-links li{
     margin: 0;
   }
-  .content1 .row header{
+  .content .row header{
     font-size: 19px;
   }
 }
