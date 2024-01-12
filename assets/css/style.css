@@ -12,7 +12,7 @@ body {
     display: block;
     margin: 0 auto;
     max-width: 1100px;
-  }*/
+  } */
   
   .sec-title {
     text-align: center;
@@ -104,10 +104,10 @@ body {
   }
   
   .form-group input {
-    background-color: #4E0000;
+    background-color: #ffffff;
     border: 1px solid #F4DCB8;
     width: 100%;
-    color: #fff;
+    color: #3a3232;
     padding: 10px 5px;
     font-size: 1rem;
   }
