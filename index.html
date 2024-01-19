@@ -12,6 +12,7 @@
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'> 
   <link rel="stylesheet" href="assets/css/nav.css">
   <link rel="stylesheet" href="assets/css/rwd.css">
+  <link rel="stylesheet" href="assets/css/form.css">
 </head>
 <body>
  <header id="header_ID">
@@ -83,7 +84,7 @@
             </div>
     </section>
 
- <!-- 右圖文 -->
+ <!-- 發壓歲錢 -->
     <section id="custom03_ID">
 
       <div  class="row max-750">
@@ -103,10 +104,10 @@
         </div>
  
               </div>
-
     </section>
+
     <section id="form_ID">
-      <div class="container">
+      <div>
         <!-- 段落標題 -->
         <div class="sec-title">
           <h3>
@@ -117,50 +118,51 @@
             人人有獎！新年好運就在您的指尖！</p>
         </div>
         <form action="">
-          <table class="form-group">
-            <tr>
+          <div class="max-540">
+            <div class="row">
               <!-- 您的姓名 -->
-              <td>
-                <label for="name_ID" class="form-group-label">您的姓名</label>
+              <div class="col-6 col-s-12">
+                <label for="name_ID" class="form-label">您的姓名</label>
                 <input type="text" id="name_ID" placeholder="請輸入您的姓名">
-              </td>
+              </div>
               <!-- 您的性別 -->
-              <td>
-                <label for="male_ID" class="form-group-label">您的性別</label>
+              <div class="col-6 col-s-12">
+                <label for="male_ID" class="form-label">您的性別</label>
                 <input type="radio" name="gender_ID" id="male_ID" value="male" checked>
                 <label for="male_ID">男</label>
                 <input type="radio" name="gender_ID" id="female_ID" value="female">
                 <label for="female_ID">女</label>
-              </td>
-            </tr>
-            <tr>
+              </div>
+            </div>
+            <div class="row">
               <!-- 您的手機 -->
-              <td>
-                <label for="phone_ID" class="form-group-label">您的手機</label>
+              <div class="col-6 col-s-12">
+                <label for="phone_ID" class="form-label">您的手機</label>
                 <input type="text" id="phone_ID" placeholder="請輸入您的手機號碼">
-              </td>
+              </div>
               <!-- 出生日期 -->
-              <td>
-                <label for="birthday_ID" class="form-group-label">出生日期</label>
+              <div class="col-6 col-s-9">
+                <label for="birthday_ID" class="form-label">出生日期</label>
                 <input type="date" id="birthday_ID" placeholder="請輸入您的姓名">
-              </td>
-            </tr>
-            <tr>
+              </div>
+            </div>
+            <div class="row">
               <!-- E-MAIL -->
-              <td colspan="2">
-                <label for="email_ID" class="form-group-label">E-MAIL</label>
+              <div class="col-12 col-s-12">
+                <label for="email_ID" class="form-label">E-MAIL</label>
                 <input type="text" id="email_ID" placeholder="請輸入您的E-MAIL">
-              </td>
-            </tr>
-            <tr>
-              <td colspan="2">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-s-12">
                 <button type="submit">填完送出</button>
-              </td>
-            </tr>
-          </table>
+              </div>
+            </div>
+          </div>
         </form>
       </div>
     </section>
+
   </main>
   <footer class="l-footer">
     <div class="container">
