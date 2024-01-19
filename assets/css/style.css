@@ -38,8 +38,8 @@ body {
   .kv-wrapper {
     background-image: url("../images/kv1.jpg");
     background-size: cover;
-    height: 636px;
-    width: auto;
+    max-width:100%;
+    height:auto;
   }
   
   .kv-wrapper h2 {
@@ -48,8 +48,13 @@ body {
     font-size: 64px;
     color: #fff;
   }
-  
- 
+  .zoomimage{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
   
   /* footer */
   .l-footer {
@@ -71,8 +76,9 @@ body {
 
   .img_circle{
     border: 2px solid #F4DCB8;
-    border-radius: 300px;
+    border-radius: 50%;
     overflow: hidden;
+    max-width: 100%;
   }
 
 
@@ -134,4 +140,3 @@ button {
   padding: 1rem;
   width: 100%;
 } 
-
